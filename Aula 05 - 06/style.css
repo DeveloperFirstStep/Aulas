@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 200, 71);
+    padding: 20px;
+}
+
+header nav a{
+    margin: 0 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(245, 187, 53);
+}
+
+header nav a:hover{
+    background-color: rgb(212, 162, 43);
+}
+
+.section{
+    margin: 70px;
+}
+
+#profile div h1{
+    text-align: center  ;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#description p{
+    background-color: rgb(204, 204, 204);
+    margin: 0 20px 0 0;
+    text-align: justify;
+    padding: 20px;
+    border: 5px solid rgb(245, 187, 53);
+}
+
+#profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    opacity: 40%;
+    transition: ease-in 0.3s opacity;
+    border: 5px solid rgb(245, 187, 53);
+}
+
+#profile-image:hover{
+    transition: ease-in 0.3s opacity;
+    opacity: 100%;
+}
+
+#video-div-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    border: 5px solid rgb(245, 187, 53);
+    background-color: rgb(204, 204, 204);
+}
+
+.video-div{
+    margin: 0 30px;
+}
+
+.video{
+    width: 480px;
+    height: 320px;
+    opacity: 40%;
+    transition: ease-in 0.3s opacity;
+    
+    border: 5px solid rgb(245, 187, 53);
+}
+
+.video:hover{
+    transition: ease-in 0.3s opacity;
+    opacity: 100%;
+}
+
+footer{
+    background-color: rgb(255, 200, 71);
+    padding: 20px;
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

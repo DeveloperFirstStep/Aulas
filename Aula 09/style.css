@@ -1,0 +1,11 @@
+.lista2{
+    color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.negrito{
+    color: blue;
+    font-weight: bold;
+    padding: 0 10px;
+}

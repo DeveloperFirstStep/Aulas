@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffecaf;
+}
+
+#cabecalho{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 30px;
+}
+
+#titulo-cabecalho{
+    margin: 0 0 15px;
+    color: rgb(42, 42, 42);
+}
+
+#paragrafo-cabecalho{
+    color: red;
+}
+
+.divisoes{
+    margin: 50px 30px;
+}
+
+.pais{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.paragrafo{
+    color: rgb(119, 0, 255);
+}
