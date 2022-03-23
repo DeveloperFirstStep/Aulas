@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+
+/* 
+    UNIDADES DE MEDIDA
+
+    Pixel = px
+    View per Width =vw
+    View per Height = vh
+    Porcentagem = %
+
+*/
+
+
+#principal {
+    width: 100;
+    height: 100vh;
+    background-color: rgb(255, 0, 0);
+}
+
+#quadrado1 {
+    width: 30%;
+    height: 30%;
+    background-color: aqua;
+}
+
+#quadrado2 {
+    width: 30%;
+    height: 30%;
+    background-color: green;
+}
